@@ -1,0 +1,9 @@
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\bin\Debug\Database1.dacpac
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\bin\Debug\Database1.dll
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\bin\Debug\Database1.pdb
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\obj\Debug\Model.xml
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\obj\Debug\refactor.xml
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\obj\Debug\postdeploy.sql
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\obj\Debug\predeploy.sql
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\obj\Debug\Database1.dll
+C:\Users\Carla\Desktop\Contaconmigo\DonarSangre\Database1\obj\Debug\Database1.pdb

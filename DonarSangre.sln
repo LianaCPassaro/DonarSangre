@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonarSangre", "DonarSangre\DonarSangre.csproj", "{7300B98E-BE79-4EC8-A966-1FD566A36084}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{68535F6B-8569-465B-A645-C29A261BE714}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7300B98E-BE79-4EC8-A966-1FD566A36084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7300B98E-BE79-4EC8-A966-1FD566A36084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7300B98E-BE79-4EC8-A966-1FD566A36084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7300B98E-BE79-4EC8-A966-1FD566A36084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68535F6B-8569-465B-A645-C29A261BE714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68535F6B-8569-465B-A645-C29A261BE714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68535F6B-8569-465B-A645-C29A261BE714}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{68535F6B-8569-465B-A645-C29A261BE714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68535F6B-8569-465B-A645-C29A261BE714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68535F6B-8569-465B-A645-C29A261BE714}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB597C76-F251-4DA6-A5FF-6C89446A1179}
+	EndGlobalSection
+EndGlobal

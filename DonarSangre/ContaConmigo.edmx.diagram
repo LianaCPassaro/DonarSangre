@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e73cc9dc3f0e43b780b6cdb63d1dc654" Name="Diagram1" ZoomLevel="52">
+        <EntityTypeShape EntityType="ContaConmigoModel1.Blood_Factor" Width="1.5" PointX="3.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContaConmigoModel1.Blood_Group" Width="1.5" PointX="2.875" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContaConmigoModel1.City" Width="1.5" PointX="6.125" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContaConmigoModel1.Donor" Width="1.5" PointX="0.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContaConmigoModel1.Institution" Width="1.5" PointX="7" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContaConmigoModel1.Province" Width="1.5" PointX="8.125" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ContaConmigoModel1.Request_Donor" Width="1.5" PointX="2.875" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Donor_Factor" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Request_Factor" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Donor_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Request_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK__City__ProvinceId__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Donor_City" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Institution_City" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Request_City" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Request_institution" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Province_Province" ManuallyRouted="false" />
+        <AssociationConnector Association="ContaConmigoModel1.FK_Province_Province1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

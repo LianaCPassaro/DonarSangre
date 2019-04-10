@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ContaConmigoModel1StoreContainer" CdmEntityContainer="ContaConmigoEntities1">
+    <EntitySetMapping Name="Blood_Factor">
+      <EntityTypeMapping TypeName="ContaConmigoModel1.Blood_Factor">
+        <MappingFragment StoreEntitySet="Blood_Factor">
+          <ScalarProperty Name="FactorId" ColumnName="FactorId" />
+          <ScalarProperty Name="Blood_Factor1" ColumnName="Blood_Factor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blood_Group">
+      <EntityTypeMapping TypeName="ContaConmigoModel1.Blood_Group">
+        <MappingFragment StoreEntitySet="Blood_Group">
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="Blood_Group1" ColumnName="Blood_Group" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City">
+      <EntityTypeMapping TypeName="ContaConmigoModel1.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="ProvinceId" ColumnName="ProvinceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Donor">
+      <EntityTypeMapping TypeName="ContaConmigoModel1.Donor">
+        <MappingFragment StoreEntitySet="Donor">
+          <ScalarProperty Name="DonorId" ColumnName="DonorId" />
+          <ScalarProperty Name="Name_Don" ColumnName="Name_Don" />
+          <ScalarProperty Name="Last_Name_Don" ColumnName="Last_Name_Don" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="Last_Date_Blood_Extract" ColumnName="Last_Date_Blood_Extract" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="FactorId" ColumnName="FactorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Institution">
+      <EntityTypeMapping TypeName="ContaConmigoModel1.Institution">
+        <MappingFragment StoreEntitySet="Institution">
+          <ScalarProperty Name="InstitutionId" ColumnName="InstitutionId" />
+          <ScalarProperty Name="InstitutionDescription" ColumnName="InstitutionDescription" />
+          <ScalarProperty Name="InstitutionAdress" ColumnName="InstitutionAdress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Province">
+      <EntityTypeMapping TypeName="ContaConmigoModel1.Province">
+        <MappingFragment StoreEntitySet="Province">
+          <ScalarProperty Name="ProvinceId" ColumnName="ProvinceId" />
+          <ScalarProperty Name="ProvinceDescription" ColumnName="ProvinceDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Request_Donor">
+      <EntityTypeMapping TypeName="ContaConmigoModel1.Request_Donor">
+        <MappingFragment StoreEntitySet="Request_Donor">
+          <ScalarProperty Name="RequestDonorId" ColumnName="RequestDonorId" />
+          <ScalarProperty Name="Name_Request_Don" ColumnName="Name_Request_Don" />
+          <ScalarProperty Name="Last_Name_Request_Don" ColumnName="Last_Name_Request_Don" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="Last_Date_Replacement" ColumnName="Last_Date_Replacement" />
+          <ScalarProperty Name="AmountDonor" ColumnName="AmountDonor" />
+          <ScalarProperty Name="InstitutionId" ColumnName="InstitutionId" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="FactorId" ColumnName="FactorId" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
